@@ -12167,6 +12167,9 @@ tinymce.create('tinymce.ui.Toolbar:tinymce.ui.Container', {
 				t.addShortcut('ctrl+i', t.getLang('italic_desc'), 'Italic');
 				t.addShortcut('ctrl+u', t.getLang('underline_desc'), 'Underline');
 
+
+				//t.addShortcut('ctrl+alt+g', "Fullscreen", "mceFullScreen");
+
 				// BlockFormat shortcuts keys
 				for (i=1; i<=6; i++)
 					t.addShortcut('ctrl+' + i, '', ['FormatBlock', false, 'h' + i]);
