@@ -10534,7 +10534,7 @@ tinymce.create('tinymce.ui.Toolbar:tinymce.ui.Container', {
 				theme : 'simple',
 				skin : 'default',
 				delta_width : 0,
-				delta_height : 0,
+				delta_height : 600,
 				popup_css : '',
 				plugins : '',
 				document_base_url : tinymce.documentBaseURL,
@@ -10577,7 +10577,7 @@ tinymce.create('tinymce.ui.Toolbar:tinymce.ui.Container', {
 				entity_encoding : 'named',
 				url_converter : t.convertURL,
 				url_converter_scope : t,
-				ie7_compat : true
+				ie7_compat : false
 			}, s);
 
 			t.documentBaseURI = new tinymce.util.URI(s.document_base_url || tinymce.documentBaseURL, {
